@@ -1,6 +1,6 @@
 package com.javaintroduction;
 
-public class Customer {
+public strictfp class Customer {
 	
 	@Override
 	protected void finalize() {
@@ -9,6 +9,8 @@ public class Customer {
 
 	public static void main(String[] args) {
 		System.out.println("main method started ");
+		
+		System.out.println(Cricketer.countryID);
 
 		Customer c1 = new Customer();
 //		com.javaintroduction.Customer@1dbd16a6

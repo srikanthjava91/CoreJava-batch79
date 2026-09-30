@@ -17,7 +17,7 @@ package com.javaintroduction;
 ///
 ///For every Object,JVM create a new Copy with default data whereas for static data it's using same copy for all objects.
 
-public class Cricketer {
+ class Cricketer {
 
 //	Step 1: Declaration 
 //	static variables 
