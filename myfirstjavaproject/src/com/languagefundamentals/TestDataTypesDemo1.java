@@ -51,13 +51,13 @@ public class TestDataTypesDemo1 {
 	
 //	boolean boo1 = TRUE;
 //	boolean boo2 = FALSE;
-	
+//	
 //	boolean boo3 = True;
 //	boolean boo4 = False;
-	
+//	
 //	boolean boo5 = 0;
 //	boolean boo6 = 1;
-	
+//	
 //	boolean boo7 = "true";
 //	boolean boo8 = "false";
 
