@@ -1,5 +1,9 @@
 package com.javaintroduction;
 
+import java.util.Scanner;
+
+import com.languagefundamentals.TestMainDemo1;
+
 ///WAP to print Indian Cricketer Information ..? 
 ///JVM is providing default values, when we are not assigning any values for class level data 
 ///whether it is static or instance.
@@ -30,6 +34,9 @@ package com.javaintroduction;
 
 	public static void main(String[] args) {
 		System.out.println("Welcome to Indian Cricket Team ");
+		
+		
+		TestMainDemo1 t1 = new TestMainDemo1();
 
 //		Step 2: Initialization 
 		countryID = 91;
