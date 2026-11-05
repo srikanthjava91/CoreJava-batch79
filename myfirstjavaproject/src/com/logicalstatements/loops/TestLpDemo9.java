@@ -11,7 +11,7 @@ public class TestLpDemo9 {
 			return false;
 		}
 
-		for (int i = 2; i < n; i++) {
+		for (int i = 2; i <= Math.sqrt(n); i++) {
 			if (n % i == 0) {
 				status = false;
 				break;
@@ -23,13 +23,18 @@ public class TestLpDemo9 {
 
 	public static void main(String[] args) {
 		System.out.println("main method started !! ");
+		
+//		System.out.println(Math.sqrt(18));
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number upto where you want to print : ");
 		int n = sc.nextInt();// 10
+		int count = 0;
 
 		for (int i = 1; i <= n; i++) {
 			if (isPrime(i)) {
-				System.out.print(i + " ");
+				count++;
+				System.out.println(i + " -> " + count);
 			}
 		}
 
